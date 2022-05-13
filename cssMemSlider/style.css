@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #25282a;
+    background-color: #646464;
 }
 input {
     display: none;
@@ -38,7 +38,7 @@ input {
     display: flex;
     grid-row: 1/2;
     width: 320vw;
-    height: 59vh;  
+    height: 70vh;  
 }
 
 .slider-text {
@@ -66,20 +66,24 @@ input {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    border-radius: 1rem;
+    border: 0.3rem solid #fff
+}
+img {
     
 }
 
 .img1 {
-    background-image: url("img/2.png");
+    background-image: url("img/6fzqm1.jpg");
 }
 .img2 {
-    background-image: url("img/3.png");
+    background-image: url("img/6fzqtw.jpg");
 }
 .img3 {
-    background-image: url("img/4.jpg");
+    background-image: url("img/6fzrhl.jpg");
 }
 .img4 {
-    background-image: url("img/5.png");
+    background-image: url("img/6g05fw.jpg");
 }
 #s-1:checked~.slider-items {
     transform: translateX(0);
@@ -127,7 +131,7 @@ input {
     transition: border 0.3s ease-in-out;
 }
 .text {
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 
 .slider-text .text {
@@ -194,7 +198,7 @@ input {
     transition: .3 ease-in-out; ;
 }
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
     .slider-items {
         height: 52vh        
     }
@@ -210,41 +214,52 @@ input {
     .slider-items {
         height: 40vh
     }
-}
+} */
 
 @media (max-width: 768px) {
     .slider {
         display: flex;
         flex-direction: column;
+        row-gap: 0.1rem;
     }
 
     .slider-nav {
         justify-content: center;
     }
 
-    .slider-items {
+    /* .slider-items {
         height: 36vh;
-    }
+    } */
 
     .slider-text {
         order: 1;
     }
 }
 
-@media (max-width: 660px) {
+/* @media (max-width: 660px) {
     .slider-items {
         height: 31vh;
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 500px) {
     .slider-items {
-        height: 26vh;
+       height: 56vh;
     }
 }
 
 @media (max-width: 460px) {
     .slider-items {
         height: 21vh;
+    }
+} */
+@media (max-width: 500px) {
+    .slider-items {
+       height: 56vh;
+    }
+}
+@media (max-width: 400px) {
+    .slider-items {
+        height: 45vh;
     }
 }
