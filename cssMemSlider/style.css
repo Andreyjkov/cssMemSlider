@@ -67,11 +67,9 @@ input {
     background-size: contain;
     background-position: center;
     border-radius: 1rem;
-    border: 0.3rem solid #fff
+    border: 0.2rem solid #fff
 }
-img {
-    
-}
+
 
 .img1 {
     background-image: url("img/6fzqm1.jpg");
@@ -136,7 +134,8 @@ img {
 
 .slider-text .text {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    color: gold;
 
 }
 #s-1:checked~.slider-nav>.nav-el1:hover .el {
